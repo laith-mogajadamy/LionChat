@@ -76,6 +76,7 @@ class _chatsState extends State<chats> {
     },
   ];
   List<Contact> fcontacts = [];
+  List<Contact> contacts = [];
   filtercontacts() {
     List<Contact> _contacts = [];
     // _contacts.addAll(people1);
